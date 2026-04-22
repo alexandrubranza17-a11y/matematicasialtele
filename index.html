@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Platformă Educațională</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f6f9;
+    }
+
+    /* NAVBAR */
+    .navbar {
+      background: #1e3a8a;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .menu a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: 500;
+    }
+
+    .menu a:hover {
+      text-decoration: underline;
+    }
+
+    /* HERO */
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      color: #1e3a8a;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #444;
+    }
+
+    /* CARDURI */
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: white;
+      width: 250px;
+      margin: 15px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card button {
+      margin-top: 15px;
+      padding: 10px;
+      border: none;
+      background: #1e3a8a;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .card button:hover {
+      background: #152a63;
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+      background: #e5e7eb;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <div class="logo">📘 Educație Online</div>
+
+    <div class="menu">
+      <a href="#">Acasă</a>
+      <a href="#servicii">Servicii</a>
+      <a href="#contact">Contact</a>
+      <a href="#materii">Materiale interactive</a>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>Bun venit pe platforma de învățare</h1>
+    <p>Exerciții, lecții și materiale interactive pentru elevi</p>
+  </div>
+
+  <!-- SECȚIUNI -->
+  <div class="container">
+
+    <div class="card" id="servicii">
+      <h3>Servicii</h3>
+      <p>Exerciții și lecții structurate pe niveluri.</p>
+      <button>Vezi</button>
+    </div>
+
+    <div class="card" id="contact">
+      <h3>Contact</h3>
+      <p>Trimite întrebări sau feedback.</p>
+      <button>Deschide</button>
+    </div>
+
+    <div class="card" id="materii">
+      <h3>Materiale interactive</h3>
+      <p>Matematică, română și științe interactive.</p>
+      <button>Intră</button>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Platformă Educațională - Creat by LILICA BACI 🚀
+  </footer>
+
+</body>
+</html>
